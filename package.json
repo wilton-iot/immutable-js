@@ -39,5 +39,16 @@
     "sequence",
     "iteration"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "wilton": {
+    "excludes": [
+      "contrib",
+      "dist/immutable-nonambient.d.ts",
+      "dist/immutable.d.ts",
+      "dist/immutable.es.js",
+      "dist/immutable.js.flow",
+      "dist/immutable.min.js",
+      "wilton-sanity-test.js"
+    ]
+  }
 }

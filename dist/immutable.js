@@ -1,3 +1,5 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
+
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -5797,3 +5799,5 @@ exports.updateIn = updateIn;
 Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
+
+return module.exports;});
