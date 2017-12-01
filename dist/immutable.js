@@ -1,4 +1,4 @@
-define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
+define(function(localRequire, exports, module) { var requireOrig = require; require = localRequire;
 
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -5800,4 +5800,4 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-return module.exports;});
+require = requireOrig;});
