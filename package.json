@@ -46,10 +46,9 @@
         "dist/immutable-nonambient.d.ts",
         "dist/immutable.d.ts",
         "dist/immutable.es.js",
-        "dist/immutable.js.flow"
-      ],
-      "preMinifiedFiles": [
-          "dist/immutable.js"
+        "dist/immutable.js.flow",
+        "dist/immutable.min.js",
+        "test.js"
       ]
   }
 }
